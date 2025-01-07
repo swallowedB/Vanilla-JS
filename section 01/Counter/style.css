@@ -1,0 +1,88 @@
+/* 기본 스타일 설정 */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f7f9fc;
+  color: #333;
+}
+
+/* 카운터 컨테이너 스타일 */
+.counter-container {
+  text-align: center;
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+/* 제목 스타일 */
+.counter-container h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #444;
+}
+
+/* 카운터 값 표시 스타일 */
+.counter-display {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 1rem 0;
+  color: #0077cc;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+}
+
+/* 버튼 컨테이너 */
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+/* 버튼 스타일 */
+.button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* 각 버튼 색상 */
+.decrement {
+  background-color: #ff6b6b;
+  color: #fff;
+}
+
+.reset {
+  background-color: #ffe66d;
+  color: #333;
+}
+
+.increment {
+  background-color: #6bcf6b;
+  color: #fff;
+}
+
+/* 버튼 호버 효과 */
+.button:hover {
+  filter: brightness(1.1);
+}
+
+/* 버튼 활성화 효과 */
+.button:active {
+  transform: scale(0.95);
+}

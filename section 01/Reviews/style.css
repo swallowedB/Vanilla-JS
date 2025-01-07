@@ -1,0 +1,111 @@
+/* 기본 스타일 설정 */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  background-color: white;
+  padding: 10px 30px;
+  border-radius: 30px;
+}
+
+/* 버튼 스타일 */
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* 캐러셀 컨테이너 스타일 */
+.carousel-container {
+  text-align: center;
+  width: 80%;
+  max-width: 600px;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 캐러셀 항목 정렬 */
+.carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px; /* 각 항목 간 간격 */
+}
+
+.carousel-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+/* 이름과 리뷰 텍스트 스타일 */
+.carousel-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.carousel-info{
+  font-size: 1rem;
+  color: #666;
+  font-style: italic;
+  padding: 0 20px;
+}
+
+/* 캐러셀 버튼 그룹 */
+.carousel-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+/* 이전/다음 버튼 스타일 */
+.prev-button, .next-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.prev-button:hover, .next-button:hover {
+  background-color: #0056b3;
+}
